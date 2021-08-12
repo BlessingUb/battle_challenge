@@ -10,5 +10,5 @@ def attack
   fill_in(:name1, with: 'John')
   fill_in(:name2, with: 'Joe')
   click_button('Submit')
-  click_button('Attack')
+  click_on('Attack')
 end
